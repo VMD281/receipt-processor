@@ -11,7 +11,6 @@ This project is a RESTful web service for processing receipts, extracting data, 
   - [POST /api/receipts/process](#post-apireceiptsprocess)
   - [GET /api/receipts/<id>/points](#get-apireceiptsidpoints)
 - [Testing](#testing)
-- [License](#license)
 
 ## Installation
 
