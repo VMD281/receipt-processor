@@ -29,13 +29,13 @@ source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate     # For Windows
 ```
 
-###Install Dependencies
+### Install Dependencies
 After activating the virtual environment, install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-###Requirements
+### Requirements
 > Python 3.11 or higher
 > Django 5.x or higher
 > Django REST Framework
@@ -49,19 +49,19 @@ python manage.py runserver
 ```
 This will start the server on http://0.0.0.0:8000/ or http://localhost:8000/.
 
-###Apply Database Migrations
+### Apply Database Migrations
 
 
 ```bash
 python manage.py migrate
 ```
-###Create a Superuser (Optional)
+### Create a Superuser (Optional)
 If needed to access the Django admin panel, create a superuser:
 
 ```bash
 python manage.py createsuperuser
 ```
-###API Endpoints
+### API Endpoints
 The API exposes the following endpoints:
 POST /api/receipts/process
 This endpoint processes a receipt. Must send the receipt data in the request body in JSON format.
@@ -102,7 +102,7 @@ Response Example:
   "points": 25
 }
 ```
-###Testing
+### Testing
 To run tests, use Django's test framework:
 
 ```bash
